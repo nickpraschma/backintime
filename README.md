@@ -16,6 +16,23 @@ with copies of the original files, but unchanged files are hard-linked between
 snapshots to save storage space.
 It was inspired by [FlyBack](https://en.wikipedia.org/wiki/FlyBack).
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Known Issues](#known-issues)
+6. [Contributing](#contributing)
+7. [License](#license)
+
+## Features
+- Easy-to-use command-line (`backintime`) and graphical (`backintime-qt`) interfaces
+- Incremental snapshots with space-saving hard links
+- Remote backups via SSH
+- Schedule regular backups or take them manually
+- Detailed logging and error reporting
+- Restore files easily from any snapshot
+
 ## Maintenance status
 
 The project is in active development since the [new team](#the-team) joined in
@@ -191,8 +208,21 @@ Note that some GNU/Linux distributions (e.g. Manjaro) using a workaround with
 environment variable `RSYNC_OLD_ARGS` in their distro-specific packages for
 _Back In Time_. In that case you may not see any problems.
 
-# Contributing and other ways to support the project
-See [CONTRIBUTING](CONTRIBUTING.md) file for an overview about the projects
-workflow and strategy.
+## Contributing
+We welcome contributions! Whether it's reporting bugs, improving documentation, or adding new features, you can help us make Back In Time better. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to get started.
+
+If you're new to open-source contributions, check out issues labeled as [Good First Issue](https://github.com/bit-team/backintime/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
+## License
+This project is licensed under the GPL-2.0 license. See the [LICENSE](LICENSE) file for more details.
+
+## Credits
+Back In Time is brought to you by a dedicated team of contributors, including:
+- Oprea Dan, Bart de Koning, Richard Bailey
+- Christian Buhtz, Michael Büker, and Jürgen Altfeld (2022 team)
+- And many other contributors over the years!
+
+We thank everyone who has contributed to making this project what it is today.
+
 
 <sub>July 2024</sub>
