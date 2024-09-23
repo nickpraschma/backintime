@@ -2,6 +2,17 @@
 [![Source code documentation Status](https://readthedocs.org/projects/backintime-dev/badge/?version=latest)](https://backintime-dev.readthedocs.io)
 [![Translation status](https://translate.codeberg.org/widget/backintime/common/svg-badge.svg)](https://translate.codeberg.org/engage/backintime)
 
+## Table of Contents
+1. [Back In Time](#back-in-time)
+2. [Maintenance Status](#maintenance-status)
+3. [Features](#features)
+4. [Installation](#installation)
+5. [Known Issues](#known-problems-and-workarounds)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Credits](#credits)
+9. [Support](#support)
+    
 # Back In Time
 <sub>Copyright (C) 2008-2024 Oprea Dan, Bart de Koning, Richard Bailey,
 Germar Reitze, Taylor Raack</sub><br />
@@ -15,23 +26,6 @@ stores them locally or remotely through SSH. Each snapshot is in its own folder
 with copies of the original files, but unchanged files are hard-linked between
 snapshots to save storage space.
 It was inspired by [FlyBack](https://en.wikipedia.org/wiki/FlyBack).
-
-## Table of Contents
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Known Issues](#known-issues)
-6. [Contributing](#contributing)
-7. [License](#license)
-
-## Features
-- Easy-to-use command-line (`backintime`) and graphical (`backintime-qt`) interfaces
-- Incremental snapshots with space-saving hard links
-- Remote backups via SSH
-- Schedule regular backups or take them manually
-- Detailed logging and error reporting
-- Restore files easily from any snapshot
 
 ## Maintenance status
 
@@ -49,6 +43,14 @@ development and have a look on
 [open issues](https://github.com/bit-team/backintime/issues) especially
 those labeled as [good first issues](https://github.com/bit-team/backintime/labels/GOOD%20FIRST%20ISSUE)
 and [help wanted](https://github.com/bit-team/backintime/issues?q=is%3Aissue+is%3Aopen+label%3AHELP-WANTED).
+
+## Features
+- Easy-to-use command-line (`backintime`) and graphical (`backintime-qt`) interfaces
+- Incremental snapshots with space-saving hard links
+- Remote backups via SSH
+- Schedule regular backups or take them manually
+- Detailed logging and error reporting
+- Restore files easily from any snapshot
 
 ## The team
 The current team started in summer of 2022
@@ -224,5 +226,11 @@ Back In Time is brought to you by a dedicated team of contributors, including:
 
 We thank everyone who has contributed to making this project what it is today.
 
+## Support
 
-<sub>July 2024</sub>
+For questions, suggestions, or bug reports:
+- Check our [FAQ](FAQ.md).
+- Open an [issue](https://github.com/bit-team/backintime/issues) on GitHub.
+- Join the discussion on the [bit-dev mailing list](https://mail.python.org/mailman3/lists/bit-dev.python.org/).
+
+<sub>September 2024</sub>
